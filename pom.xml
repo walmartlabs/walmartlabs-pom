@@ -22,7 +22,7 @@ limitations under the License."
   <parent>
     <groupId>io.takari</groupId>
     <artifactId>takari</artifactId>
-    <version>25</version>
+    <version>26</version>
   </parent>
 
   <groupId>com.walmartlabs</groupId>
@@ -65,7 +65,6 @@ limitations under the License."
 
   <properties>
     <!-- Properties that control how plugins we define are used. All prefixed with "takari." -->
-    <takari.javaSourceVersion>1.8</takari.javaSourceVersion>
     <takari.licenseHeader>https://raw.githubusercontent.com/walmartlabs/walmart-pom/master/license-header.txt</takari.licenseHeader>
   </properties>
 
