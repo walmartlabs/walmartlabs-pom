@@ -27,6 +27,14 @@ binaries are available whereever Central is available. Prior to that the staging
 repository needs to be closed and released on OSSRH. Also person performing
 the release has to have correct access. To gain access contact opensource@walmartlabs.com.
 
+SNAPSHOT version deployments emulating the full release build can be done with
+
+```
+mvn clean deploy -P takari-release
+```
+
+Binaries end up on https://oss.sonatype.org/content/repositories/snapshots/
+
 The project uses the 
 [Takari Lifecycle](http://takari.io/book/40-lifecycle.html) for resources,
 compiler, jar, install and deploy replacement. 
