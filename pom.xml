@@ -22,7 +22,7 @@ limitations under the License."
   <parent>
     <groupId>io.takari</groupId>
     <artifactId>takari</artifactId>
-    <version>26</version>
+    <version>27</version>
   </parent>
 
   <groupId>com.walmartlabs</groupId>
